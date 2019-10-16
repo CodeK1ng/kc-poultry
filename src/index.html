@@ -13,6 +13,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   
 </head>
 <body>
@@ -77,5 +80,26 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
   </script>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: 23.094197,
+                lng: 72.558148
+            };
+            var map = new google.maps.Map(document.getElementById('contact-map'), {
+                zoom: 14,
+                center: uluru,
+                scrollwheel: false
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                icon: 'https://easetemplate.com/free-website-templates/life-coach/images/map_marker.png'
+    
+            });
+        }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZib4Lvp0g1L8eskVBFJ0SEbnENB6cJ-g&callback=initMap">
+        </script>
 </body>
 </html>

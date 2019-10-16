@@ -1,3 +1,11 @@
+.jumbotron{
+    text-align: center; 
+    background: rgb(1, 1, 65); 
+    color: white;  
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .nav li a{
     color: rgb(1, 1, 65) !important;
     }
