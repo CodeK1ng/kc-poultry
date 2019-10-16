@@ -1,0 +1,160 @@
+.webcoderskull {
+    font-size: 0.5em;
+  }
+  
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     background: #000;
+    background-size: 0.12em 100%;
+    font: 16em/1 Arial;
+  }
+  
+  .webcoderskull-1 {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 3px;
+    -webkit-animation: stroke-offset 7s infinite linear;
+            animation: stroke-offset 7s infinite linear;
+  }
+  .webcoderskull-1:nth-child(1) {
+    stroke: #360745;
+    stroke-dashoffset: 7%;
+  }
+  .webcoderskull-1:nth-child(2) {
+    stroke: #d61c59;
+    stroke-dashoffset: 14%;
+  }
+  .webcoderskull-1:nth-child(3) {
+    stroke: #e7d84b;
+    stroke-dashoffset: 21%;
+  }
+  .webcoderskull-1:nth-child(4) {
+    stroke: #efeac5;
+    stroke-dashoffset: 28%;
+  }
+  .webcoderskull-1:nth-child(5) {
+    stroke: #1b8798;
+    stroke-dashoffset: 35%;
+  }
+  
+  @-webkit-keyframes stroke-offset {
+    50% {
+      stroke-dashoffset: 35%;
+      stroke-dasharray: 0 87.5%;
+    }
+  }
+  
+  @keyframes stroke-offset {
+    50% {
+      stroke-dashoffset: 35%;
+      stroke-dasharray: 0 87.5%;
+    }
+  }
+
+  .services{
+    padding: 3%;
+    text-align: center;
+    color:#fff;
+    padding-top:0em;
+  }
+
+
+  * { color:#fff; text-decoration: none;}
+
+
+.card-body{
+    text-align:center;
+    color: white;
+}
+
+.row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.our-services{
+    padding: 30px 0 40px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.our-services .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    background: #eb1768;
+    position: relative;
+    z-index: 1;
+
+}
+
+.our-services .pic:before{
+    content: "";
+    width: 100%;
+    background: #eb1768;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+
+}
+
+.our-services:hover .pic:before{
+    height: 100%;
+}
+
+.our-services .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ee4266;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.our-services .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s linear 0s;
+}
+
+.our-services:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+.our-services .service-content{
+    margin-bottom: 30px;
+}
+
+.our-services .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.our-services .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+
+}
