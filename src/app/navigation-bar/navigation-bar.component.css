@@ -6,16 +6,18 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-/* 
-.nav li a{
-    color: rgb(1, 1, 65) !important;
-    }
-    */
+
+.cont{
+    margin-bottom: 10px;
+}
 .navbar{
    height: 50px;
 } 
 
-
+#nav-toggle-button{
+    background-color:rgb(1, 1, 65);
+    margin-bottom: 20px;
+}
 
 p{
 color:#ffffff;
@@ -68,6 +70,7 @@ background-color: #212529;
 /* mobile view */
 @media (max-width:500px)
 {
+
 
 .navbar-nav{
     background-color:white;
