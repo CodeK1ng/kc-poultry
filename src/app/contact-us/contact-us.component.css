@@ -27,23 +27,26 @@
     text-align: center;
     color: #0062cc;
 }
-.contact-form .btnContact {
-    width: 50%;
+/* .contact-form .btnContact {
+    width: 200%;
     border: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 1.5%;
     background: #dc3545;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-}
-.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: #0062cc;
+} */
+
+.row .btnContact {
+    width: 200%;
     border: none;
+    border-radius: 2rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
     cursor: pointer;
+    margin-left: 20%;
+    
 }
