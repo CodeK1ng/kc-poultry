@@ -13,6 +13,9 @@ import { MatFormFieldModule } from "@angular/material";
 import { AnimeComponent } from './anime/anime.component';
 import { AnimationComponent } from './animation/animation.component';
 import { MyAnimeComponent } from './my-anime/my-anime.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { MyAnimeComponent } from './my-anime/my-anime.component';
     AnimeComponent,
     AnimationComponent,
     MyAnimeComponent,
+    AboutUsComponent,
+    ContentComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatFormFieldModule],
   providers: [],
